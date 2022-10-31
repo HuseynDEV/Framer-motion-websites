@@ -1,0 +1,195 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+body {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: white;
+  /* overflow: hidden; */
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 100px;
+}
+
+head .logo span {
+  color: #0FD68C
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  gap: 2rem
+}
+
+.right>div {
+  display: flex;
+  gap: .4rem;
+  align-items: center;
+}
+
+.email {
+  border-left: 1px solid;
+  padding: 0 20px;
+  border-right: 1px solid;
+}
+
+.menu {
+  width: 35px;
+  height: 35px;
+  background: #0FD68C;
+  padding: 5px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.menu span {
+  width: 60%;
+  height: 3px;
+  background: white;
+  display: block;
+
+}
+
+.menu .second {
+  transform: translateX(4px);
+  height: 3px;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0 13%;
+
+}
+
+
+.main .right {
+  justify-content: center;
+}
+
+.main .right img {
+  width: 300px;
+  height: 300px;
+}
+
+.main .right,
+.main .left {
+  flex: 1;
+}
+
+.main .left h1 {
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+.btns {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin: 20px 0;
+}
+
+.btns button {
+  width: 130px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+
+.btns button:first-child {
+  background: black;
+  color: white
+}
+
+.stars {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin: 20px 0;
+}
+
+.stars span {
+  background: #0FD68C;
+  color: white;
+  padding: .2rem;
+  border-radius: 5px;
+}
+
+.main .left div>p{
+  display: inline;
+}
+
+
+.sercies_container {
+  margin-top: 80px;
+  padding: 0 13%;
+}
+
+.sercies_container .header {
+  text-align: center;
+
+}
+
+.sercies_container .header h3 {
+  color: #0FD68C;
+  margin-bottom: 10px;
+}
+
+.sercies_container .header h1 {
+  font-size: 40px;
+}
+
+.carts {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-top: 40px;
+}
+
+.carts .cart {
+  width: 250px;;
+  padding: 40px 20px;
+  border:1px solid rgb(222, 219, 219);
+  transition: .6s all;
+}
+
+.cart .about {
+  width: 150px;
+  margin: 20px 0;
+}
+
+.cart .more {
+  color: #0FD68C
+}
+
+.cart .head_cart {
+  background: #0FD68C;
+  width: 30px;
+  height: 30px;
+  color:white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+
+.cart:hover{
+  transform: translateY(-20px);
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
